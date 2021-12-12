@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="InsuaranceForms\ClaimsReceivedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\EditPersonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\RequestClaimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\SalesmadeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\UserLogsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\About Form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\AddorEditUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\AllclaimsUsercontrol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\AllClientsDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CircularButtonClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="CircularPictureboxClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\DefaultAdminPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\EditDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\Form_Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\MainDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\LoginPageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\Insuarance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\MainPersonForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\Manage Clients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\Manage PersonsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\NotificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\panelcustomerdetailstab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\Person Details.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\PersonFormDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\SendEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\SendMailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\PersonClaimUsercontrol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\SalesMadeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\SettingsForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\USerForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\ViewAllClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceForms\WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InsuaranceUsercontrols\UserLogsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MainForms\UpdatedMainForm">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\homepanelform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\SecondForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,162 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net4.8</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UserSecretsId>f091cb38-90d7-4ac1-8469-6b62131235cd</UserSecretsId>
+    <StartupObject>Insuarance.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MainForms\UpdatedMainForm" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="MainForms\UpdatedMainForm" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bunifu.UI.WinForms" Version="5.2.1" />
+    <PackageReference Include="FontAwesome.Sharp" Version="5.15.3" />
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.1.9" />
+    <PackageReference Include="LiveCharts" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
+    <PackageReference Include="MaterialSkin" Version="0.2.1" />
+    <PackageReference Include="MaterialSkin.Updated" Version="0.2.2" />
+    <PackageReference Include="MetroModernUI" Version="1.4.0" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
+    <PackageReference Include="PdfPrintingNet" Version="4.10.1.1" />
+    <PackageReference Include="SplashScreen.Winforms" Version="1.0.0" />
+    <PackageReference Include="TabControl" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InsuaranceModels\InsuaranceModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRating">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuRating.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSeparator">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShapes">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSnackbar">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuSnackbar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextBox">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToggleSwitch">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.Deprecated">
+      <HintPath>..\..\Downloads\AnimatedSplashScreens-master\AnimatedSplashScreens-master\packages\Bunifu.UI.WinForms.5.0.7\lib\net40\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
